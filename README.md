@@ -8,11 +8,14 @@ The Seervision Trigger Mapper connects zone triggers from a Seervision / VisionS
 2. Give the Seervision component and target components clear, unique names. These names appear in the mapper's dropdowns.
 3. Select the Seervision component and set **Script Access** to **Script** or **All** in its Properties.
 
-   ![Enable Script Access on the Seervision component](<MD Images/Seervision Script Access.png>)
+
+<img width="463" height="229" alt="Seervision Plugin and Trigger Mapper" src="https://github.com/user-attachments/assets/dd92ed57-f441-4e15-933e-929384896941" />
+<img width="385" height="69" alt="Seervision Script Access" src="https://github.com/user-attachments/assets/53e5030a-e82e-466f-9905-2e607ce06ea6" />
+
 
 4. Enable **Script Access** on each target component as well. The example below shows a target component in the schematic.
 
-   ![Example target component in the schematic](<MD Images/Component Script Access.png>)
+<img width="422" height="358" alt="Component Script Access" src="https://github.com/user-attachments/assets/420f3240-b808-4313-8ae2-97f1e4408acb" />
 
 5. In the mapper's Properties, set **Rule Count** to the number of mappings you need (1–32; default is 4). Changing this later rebuilds the rule controls, so check your configuration afterward.
 6. Save and run the design on a Core, or start **Emulate**.
@@ -28,7 +31,8 @@ Open the mapper and use the **Rules** page. Start by selecting the Seervision co
 5. **Value** — Enter or select the value to apply. This field changes to match the selected property.
 6. **On** — Enable the rule. Enabling a rule arms it; it does not fire the action immediately.
 
-![Rules page with example trigger mappings](<MD Images/Configuration.png>)
+<img width="1195" height="396" alt="Configuration" src="https://github.com/user-attachments/assets/5938ac71-853a-4b2d-a4e3-ea86df123dd8" />
+
 
 When the selected trigger goes true, the mapper applies the configured value. The row's status indicator is green when enabled and working; if an action fails, check the status text and the target's Script Access and control settings.
 
@@ -52,7 +56,8 @@ Rules run only when a trigger goes true; the mapper does not apply an action whe
 
 Use the mapper's **Inspector** page to select a component and see its control names, types, and directions. This is useful for confirming a Seervision trigger name or finding a target control. Controls marked **Read** are not writable targets.
 
-![Inspector page showing a component's controls](<MD Images/Inspector.png>)
+<img width="719" height="900" alt="Inspector" src="https://github.com/user-attachments/assets/ebbf42e9-57cc-40b9-9b0e-063a7d9289ac" />
+
 
 ## Test the configuration
 
