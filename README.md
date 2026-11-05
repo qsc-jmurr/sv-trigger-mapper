@@ -41,8 +41,8 @@ When the selected trigger goes true, the mapper applies the configured value. Th
 | Property | Use with | Value applied when the trigger goes true |
 |---|---|---|
 | **Boolean** | Boolean controls such as mute or bypass | Select `true` or `false`. |
-| **Value** | Float or Integer controls | Enter a value in the control's units, such as dB for a gain. |
-| **Position** | Float or Integer controls | Enter a normalized position from `0` to `1` across the control's range. |
+| **Value** | Float or Integer controls | Enter an integer value relevant to the target controls ranges (e.g., -20 for a gain control). |
+| **Position** | Float or Integer controls | Enter a value between `0` and `1`. |
 | **String** | Text controls | Enter the text to set. |
 | **Trigger** | Trigger controls such as snapshot loads or preset recalls | No value is needed; the control is triggered. |
 
